@@ -1,4 +1,4 @@
 FROM ubuntu/apache2
-#RUN mkdir /var/www/html
+#RUN mkdir /var/www/
 COPY index.html /var/www/html/
 EXPOSE 80
