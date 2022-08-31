@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: deployfrontend
-        image: 373474467195.dkr.ecr.us-east-1.amazonaws.com/sample_ecs:${BITBUCKET_BUILD_NUMBER}
+        image: /:main-cb29750
         ports:
         - containerPort: 80
