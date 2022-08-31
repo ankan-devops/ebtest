@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: deployfrontend
-        image: /:main-cb29750
+        image: 373474467195.dkr.ecr.us-east-1.amazonaws.com/sample_ecs:main-97c6d47
         ports:
         - containerPort: 80
